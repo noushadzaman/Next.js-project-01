@@ -16,7 +16,9 @@ const SingleProduct = ({ product }) => {
                     {product.title}
                 </Link>
                 <span className="text-[#919090]">
-                    <Link href={`/`} >({product?.category})</Link>
+                    <Link
+                        href={`/categories/${product.category}`}
+                    >({product?.category})</Link>
                 </span>
             </h2>
             <p className="text-[#919090] text-sm ">{product?.description}</p>
