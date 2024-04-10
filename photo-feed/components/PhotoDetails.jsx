@@ -105,7 +105,6 @@ const PhotoDetails = async ({ id, lang }) => {
                                 alt="share"
                                 className="w-5 h-5"
                             />
-
                             {dictionary.share}
                         </button>
                     </div>
